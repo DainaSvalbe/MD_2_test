@@ -1,58 +1,58 @@
-﻿//// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Kā tevi sauc?");
-//string name = Console.ReadLine();
-//Console.WriteLine("Sveiks, " + name);
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Kā tevi sauc?");
+string name = Console.ReadLine();
+Console.WriteLine("Sveiks, " + name);
 
-//Console.WriteLine("Kāds ir tavs vecums?");
-//string ageStr = Console.ReadLine();
-//int age1 = int.Parse(ageStr);
+Console.WriteLine("Kāds ir tavs vecums?");
+string ageStr = Console.ReadLine();
+int age1 = int.Parse(ageStr);
 
-//int age2 = age1 + 1;
+int age2 = age1 + 1;
 
-//Console.WriteLine("Nākamgad tev paliks " + age2 + ". Tu esi pingadīgs?");
-//int limit = 18;
+Console.WriteLine("Nākamgad tev paliks " + age2 + ". Tu esi pingadīgs?");
+int limit = 18;
 
-//bool pilngadigs = age1 >= limit;
+bool pilngadigs = age1 >= limit;
 
-//Console.WriteLine(pilngadigs);
+Console.WriteLine(pilngadigs);
 
 
-////---------------------------------------------
+//---------------------------------------------
 
-//Console.WriteLine("Min/Max uzdevums ");
+Console.WriteLine("Min/Max uzdevums ");
 
-//Console.WriteLine("Ievadi pirmo skaitli");
-//int skaitlis1 = int.Parse(Console.ReadLine());
-//Console.WriteLine("Ievadi otro skaitli");
-//int skaitlis2 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ievadi pirmo skaitli");
+int skaitlis1 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ievadi otro skaitli");
+int skaitlis2 = int.Parse(Console.ReadLine());
 
-//int maxSkaitlis = Math.Max(skaitlis1, skaitlis2);
-//Console.WriteLine("Max skaitlis: " + maxSkaitlis);
+int maxSkaitlis = Math.Max(skaitlis1, skaitlis2);
+Console.WriteLine("Max skaitlis: " + maxSkaitlis);
 
-//int minSkaitlis = Math.Min(skaitlis1, skaitlis2);
-//Console.WriteLine($"Min skaitlis: {minSkaitlis}");
+int minSkaitlis = Math.Min(skaitlis1, skaitlis2);
+Console.WriteLine($"Min skaitlis: {minSkaitlis}");
 
-////--------------------------------------------------
+//--------------------------------------------------
 
-//Console.WriteLine("Daliijuma atlikums uzdevums ");
+Console.WriteLine("Daliijuma atlikums uzdevums ");
 
-//Console.WriteLine("Ievadi pirmo skaitli");
-//int skaitlis11 = int.Parse(Console.ReadLine());
-//Console.WriteLine("Ievadi otro skaitli");
-//int skaitlis22 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ievadi pirmo skaitli");
+int skaitlis11 = int.Parse(Console.ReadLine());
+Console.WriteLine("Ievadi otro skaitli");
+int skaitlis22 = int.Parse(Console.ReadLine());
 
-//int atlikums = skaitlis11 % skaitlis22;
-//Console.WriteLine($"Daliijuma atlikums: {atlikums}");
+int atlikums = skaitlis11 % skaitlis22;
+Console.WriteLine($"Daliijuma atlikums: {atlikums}");
 
-////---------------------------------------------------------
+//---------------------------------------------------------
 
-//Console.WriteLine("Vai ir paara/nepaara skaitlis");
+Console.WriteLine("Vai ir paara/nepaara skaitlis");
 
-//Console.WriteLine("Ievadi skaitli");
-//int skaitlis111 = int.Parse(Console.ReadLine());
-//bool paraSkaitlis = skaitlis111 % 2 == 0;
+Console.WriteLine("Ievadi skaitli");
+int skaitlis111 = int.Parse(Console.ReadLine());
+bool paraSkaitlis = skaitlis111 % 2 == 0;
 
-//Console.WriteLine("Vai ir paara skaitlis? " + paraSkaitlis);
+Console.WriteLine("Vai ir paara skaitlis? " + paraSkaitlis);
 
 
 //------------------------------------
